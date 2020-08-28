@@ -6,11 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public edadUno;
-  public edadDos;
-  public suma;
-  public promedio;
-  title = 'prueba';
+  public edadUno: number;
+  public edadDos: number;
+  public suma: number;
+  public promedio: number;
 
   Calcular(){
     if(this.edadUno!=null 
