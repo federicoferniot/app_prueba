@@ -1,3 +1,7 @@
-<input type="number">
-<input type="number">
+Edad Uno<input type="number" [(ngModel)]="edadUno">
+Edad Dos<input type="number" [(ngModel)]="edadDos"><br>
+<button (click)="Calcular()">Calcular</button>
+<button (click)="Limpiar()">Limpiar cuadros de texto</button><br>
+Promedio<input disabled [(ngModel)]="promedio">
+Suma<input disabled [(ngModel)]="suma">
 <router-outlet></router-outlet>
